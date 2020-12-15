@@ -1,0 +1,471 @@
+
+body {
+    overflow-x: hidden;
+}
+
+html {
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+#main {
+    background-color: white!important;
+}
+
+#navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    margin: 2vmin;
+    transition: 0.2s;
+}
+
+#navBar {
+    height: auto;
+    width: 80%;
+    margin: auto 10%;
+    transition: 0.2s;
+    padding-top: 2rem;
+    text-align: center;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#navBar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 2.2vmin;
+    font-weight: 600;
+}
+
+#navBar ul li {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#home {
+    border-bottom: #7BAAC4 solid 8px;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 10vmin;
+    background-position: center;
+}
+.lista1 {
+    margin-top: 3%;
+}
+
+.lista2 {
+    margin-top: 3%;
+}
+
+#logo  {
+    display: none;
+}
+
+#navBar .logo, .filtro #logo{
+    width: 15vmin;
+    -webkit-filter: drop-shadow(5px 5px 6px #222);
+    filter: drop-shadow(5px 5px 6px #222);
+}
+
+
+.filtro {
+    width: 100;
+    height: auto;
+    padding-bottom: 1vmin;
+}
+
+.filtro p {
+    font-size: 4vmin;
+    color: rgb(255, 255, 255);
+    width: 55%;
+    padding-top: 10vmin;
+    padding-bottom: 5vmin;
+    font-weight: 500;
+    text-shadow: black 3px 3px 5px;
+}
+
+.filtro button {
+    font-family: "Poppins", sans-serif;
+    margin: 0 3vmin;
+    margin-top: 3vmin;
+    border-radius: 20px;
+    border: #7BAAC4 solid 3.5px;
+    font-size: 3vmin;
+    font-weight: 600;
+    padding: 0.5vmin 3vmin;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: black 2px 2px 7px;
+    transition: 0.3s;
+    text-shadow: black 3px 3px 5px;
+    outline: none;
+}
+
+.filtro button:hover {
+    transform: scale(1.1);
+    box-shadow: black 3px 3px 10px;
+    background-color: #7BAAC4;
+}
+
+.filtro .btnLogin {
+    background-color: #7BAAC4;
+}
+
+/* HOME FINALIZADA */
+
+#sobre h1 {
+    font-family: "Poppins", sans-serif;
+    margin: 3vmin 3vmin;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 6vmin;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 2%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    border: #7BAAC4 2px solid;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 5% 2vmin;
+}
+
+.card i {
+    font-size: 8vmin;
+    color: #7BAAC4;
+}
+
+.card h2 {
+    margin: 2vmin auto;
+}
+
+
+/* FIM DA SECTION SOBRE */
+
+#servicos {
+    padding-bottom: 8vmin;
+}
+
+.textoServicos {
+    font-size: 6vmin;
+    padding: 5%;
+    text-align: center;
+    color: #7BAAC4;
+}
+
+.container1, .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto 5%;
+}
+
+.container1 p {
+    font-size: 3.5vmin;
+    margin-top: 12%;
+    margin-left: 4vmin;
+}
+
+
+.container2 p {
+    margin-top: 12%;
+    font-size: 3.5vmin;
+}
+
+
+.textoServicos2 {
+    text-align: center;
+    font-size: 6vmin;
+    padding: 5%;
+    color: #FF3D22;
+}
+
+/* SECTION SERVIÇOS FINALIZADAS */
+
+#planos {
+    background-color: #7BAAC4;
+    width: 100%;
+    height: auto;
+    padding: 0 0 15vmin 0;
+    z-index: -1;
+    text-align: center;
+}
+
+.containerPlanos {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5vmin;
+}
+
+.textoPlanos {
+    font-size: 6vmin;
+    padding: 2%;
+    text-align: center;
+}
+
+.card1 {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.205);
+    border: #7BAAC4 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 5vmin 3vmin;
+    transition: 0.2s;
+}
+
+.card2 {
+    background-color: white;
+    box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
+    border: #FF3D22 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 5vmin 3vmin;
+    transform: scaleX(1.1);
+    transition: 0.2s;
+}
+
+.card1:hover, .card2:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+#planos h2::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: black;
+    margin-top: 1vmin;
+}
+
+#planos h2 {
+    font-size: 5vmin;
+    margin-top: 1vmin;
+}
+
+.containerPlanos p {
+    padding: 1vmin;
+}
+
+.cima {
+    color: #7e7e7e;
+    font-size: 2vmin;
+}
+
+
+#cor2 {
+    background-color: #FF3D22;
+    border: #FF3D22 solid 3.5px;
+    background-color: #FF3D22;
+}
+
+
+#cor2:hover {
+    transform: scale(1.05);
+    box-shadow: black 3px 3px 10px;
+    background-color: #FF3D22;
+}
+
+/* SECTION DE PLANOS FINALIZADO */
+
+.textoContato {
+    font-size: 6vmin;
+    padding: 5vmin;
+    text-align: center;
+    z-index: 1;
+}
+
+.formu {
+    text-align: center;
+    width: 50%;
+}
+.formu h3 {
+    text-align: left;
+}
+
+
+#input {
+    padding: 9px;
+    width: 30rem;
+    border-radius: 13px;
+    border: 2px solid #7BAAC4;
+    outline: #7BAAC4;
+    transition: 0.3s;
+}
+#indexInput{
+    margin-right: 27.5rem;
+    width: 30rem;
+    border-radius: 1.5rem;
+    border: 2px solid #7BAAC4;
+    transition: 0.2s;
+}
+#btnTexteArea{
+    margin-right: 28rem;
+}
+
+.formu textarea:focus, .formu textarea:hover, .formu input:focus,
+.formu input:hover {
+    transform: scale(1.02);
+    box-shadow: black 2px 2px 6px;
+    border: 2px solid #FF3D22;
+    outline: #FF3D22;
+    
+}
+
+.contato {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10vmin;
+}
+
+.contato img {
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+
+.contato form {
+    width: 100%;
+}
+
+
+/* SECTION CONTATO FINALIZADA */
+
+.logofooter {
+    width: 25vmin;
+    padding: 4vmin;
+    -webkit-filter: drop-shadow(5px 5px 6px #222);
+    filter: drop-shadow(5px 5px 6px #222);
+}
+
+.footer {
+    border-top: 10px solid #6daeb1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(36, 42, 51);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons {
+    font-size: 5vmin;
+}
+
+.icons i {
+    margin: 3vmin;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #FF3D22;
+    text-shadow: 0px 0px 7px #FF3D22;
+}
+
+@media only screen and (max-width: 857px) {
+    .footer {
+        padding-bottom: 3.5vmin;
+    }
+}
+
+@media only screen and (min-width: 734px) {
+    .filtro .logo {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .containerPlanos {
+        display: inline-block;
+    }
+
+    .card1, .card2 {
+        max-width: 50%;
+        margin: 5vmin 25%;
+    }
+
+    .card2 {
+        transform: scale(1);
+    }
+    #navBar .logo{
+        display: none ;
+    }
+    #navBar {
+        display: grid;
+        grid-template-columns: 1fr; 
+    } 
+    .filtro #logo {
+        display: block;
+        margin-left: 52vmin;
+        margin-top: 5vmin;
+        margin-bottom: -5vmin;
+    }
+}
+
+@media only screen and (max-width: 944px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        margin: 2vmin auto;
+    }
+    .container1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container1 img, .container2 img {
+        width: 70%;
+        margin: auto 15%;
+        margin-top: 8vmin;
+    }
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .container1 p, .container2 p {
+        margin-top: 12%;
+        float: none;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contato img {
+        display: none;
+    }
+
+    .contato {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 23%;
+    }
+
+    .formu {
+        width: 100%;
+        text-align: center;
+    }
+
+}
