@@ -47,9 +47,13 @@ const Chart1 = ({idgestor}) => {
       });
   };
 
-  useEffect(() => {
+  //useEffect(() => {
+  //  chart();
+  //}, [chart]);
+
+  React.useCallback(() => {
     chart();
-  }, [chart]);
+  }, [chart])
 
   return (
     <div>
