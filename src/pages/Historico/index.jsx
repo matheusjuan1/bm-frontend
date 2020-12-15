@@ -23,11 +23,11 @@ const Historico = () => {
         dados.map(dado => (
         dataa.push([dado.titulo, dado.urls, dado.datahora])
       ));
-        console.log(setDaata);
+        console.log(setDataa);
       }
     }
     fetchData();
-  }, [id, dados, daata]);
+  }, [id, dados, dataa]);
 
 
   return (
