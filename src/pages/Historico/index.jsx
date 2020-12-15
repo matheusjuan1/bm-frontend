@@ -22,8 +22,8 @@ const Historico = () => {
       if (dados && dataa.length < dados.length) {
         dados.map(dado => (
         dataa.push([dado.titulo, dado.urls, dado.datahora])
+      ));
         console.log(setDaata);
-      )); 
       }
     }
     fetchData();
